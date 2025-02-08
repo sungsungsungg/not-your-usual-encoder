@@ -1,4 +1,6 @@
 # not-your-usual-encoder
+This is a project assigned by Professor Tang in CS 202 class at NYU.
+This project demonstrates my ability to work with multithreaded programming using POSIX threads, implement a thread pool utilizing mutexes and condition variables and parallelize a program through the use of a thread pool.
 
 ## sequential RLE
 I first implemented nyuenc as a single-threaded program. The encoder reads from one or more files specified as command-line arguments and writes to STDOUT. Thus, the typical usage of nyuenc would use shell redirection to write the encoded output to a file.
